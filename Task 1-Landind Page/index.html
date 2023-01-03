@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wave">
+            <img src="bg.png">
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Types</a></li>
+                <li><a href="#">FAQ</a></li>
+
+            </ul>
+
+        </nav>
+        <div class="imp-content">
+            <div class="image-staionary">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide"><img src="img2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="img1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="cp.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="stst.jpeg" alt=""></div>
+                        <div class="swiper-slide"><img src="pencil.jpeg" alt=""></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="imp-text">
+                <h1>Rainbow Stationer's</h1>
+                <p>
+                    Welcome to the magical stationary world where you can get all kinds of papers,books, pens, colors
+                    and many more.
+                    Do visit once!!! Meeting all your stationary requirements at only one place RAINBOW STATIONER'S!!!!
+                </p>
+                <button>Know more</button>
+            </div>
+        </div>
+        <div class="right">
+            <div class="box">
+                <div class="image">
+                    <img src="plogo.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Books</h3>
+                    <p>Get all types of notebooks</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="calci.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Calculators</h3>
+                    <p>Get all types of Calculators</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="geo.png" alt="">
+                </div>
+                <div class="inner-box">
+                    <h3>Instruments</h3>
+                    <p>Get all types of geometric and drawing instruments</p>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="far fa-envelope"></i>
+
+
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
